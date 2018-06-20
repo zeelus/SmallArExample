@@ -13,6 +13,8 @@
 		2223342120DA76CF00DE44F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2223341F20DA76CF00DE44F7 /* Main.storyboard */; };
 		2223342320DA76D100DE44F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2223342220DA76D100DE44F7 /* Assets.xcassets */; };
 		2223342620DA76D100DE44F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2223342420DA76D100DE44F7 /* LaunchScreen.storyboard */; };
+		22298A8120DA92C5000E0995 /* GridNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22298A8020DA92C5000E0995 /* GridNode.swift */; };
+		22298A8320DA94CF000E0995 /* CabbageNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22298A8220DA94CF000E0995 /* CabbageNode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		2223342220DA76D100DE44F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2223342520DA76D100DE44F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2223342720DA76D100DE44F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22298A8020DA92C5000E0995 /* GridNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridNode.swift; sourceTree = "<group>"; };
+		22298A8220DA94CF000E0995 /* CabbageNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CabbageNode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				2223342220DA76D100DE44F7 /* Assets.xcassets */,
 				2223342420DA76D100DE44F7 /* LaunchScreen.storyboard */,
 				2223342720DA76D100DE44F7 /* Info.plist */,
+				22298A8020DA92C5000E0995 /* GridNode.swift */,
+				22298A8220DA94CF000E0995 /* CabbageNode.swift */,
 			);
 			path = ArExample;
 			sourceTree = "<group>";
@@ -140,7 +146,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2223341E20DA76CF00DE44F7 /* ViewController.swift in Sources */,
+				22298A8120DA92C5000E0995 /* GridNode.swift in Sources */,
 				2223341A20DA76CF00DE44F7 /* AppDelegate.swift in Sources */,
+				22298A8320DA94CF000E0995 /* CabbageNode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +293,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6ALA6QB992;
 				INFOPLIST_FILE = ArExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -302,6 +311,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6ALA6QB992;
 				INFOPLIST_FILE = ArExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

@@ -7,3 +7,28 @@
 //
 
 import Foundation
+import SceneKit
+
+class CabbageNode :SCNNode {
+    
+    required init?(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
+    }
+    
+    override init() {
+        super.init()
+        guard let cabbageScene = SCNScene(named: "art.scnassets/Cabbage.scn") else { return }
+        let node = cabbageScene.rootNode
+        node.name = "Cabbage"
+        self.addChildNode(node)
+        self.scale = SCNVector3Make(0.01, 0.01, 0.01)
+        
+        
+        let geometry = SCNSphere(radius: 0.05)
+        let shape = SCNPhysicsShape(geometry: geometry, options: nil)
+        self.physicsBody = SCNPhysicsBody(type: .dynamic, shape: shape)
+        self.physicsBody?.mass = 1
+
+        
+    }
+}
