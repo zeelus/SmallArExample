@@ -24,7 +24,6 @@ class GridNode: SCNNode {
     
     init(anchor: ARPlaneAnchor) {
         super.init()
-        
         self.anchor = anchor
         
         let material = SCNMaterial()

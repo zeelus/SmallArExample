@@ -60,6 +60,7 @@
 		2223341820DA76CF00DE44F7 /* ArExample */ = {
 			isa = PBXGroup;
 			children = (
+				2277151B20DD1F5100CEEBF4 /* Nodes */,
 				2223341920DA76CF00DE44F7 /* AppDelegate.swift */,
 				2223341B20DA76CF00DE44F7 /* art.scnassets */,
 				2223341D20DA76CF00DE44F7 /* ViewController.swift */,
@@ -67,10 +68,17 @@
 				2223342220DA76D100DE44F7 /* Assets.xcassets */,
 				2223342420DA76D100DE44F7 /* LaunchScreen.storyboard */,
 				2223342720DA76D100DE44F7 /* Info.plist */,
+			);
+			path = ArExample;
+			sourceTree = "<group>";
+		};
+		2277151B20DD1F5100CEEBF4 /* Nodes */ = {
+			isa = PBXGroup;
+			children = (
 				22298A8020DA92C5000E0995 /* GridNode.swift */,
 				22298A8220DA94CF000E0995 /* CabbageNode.swift */,
 			);
-			path = ArExample;
+			path = Nodes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

@@ -17,8 +17,9 @@ class CabbageNode :SCNNode {
     
     override init() {
         super.init()
-        guard let cabbageScene = SCNScene(named: "art.scnassets/Cabbage.scn") else { return }
-        let node = cabbageScene.rootNode
+        guard let cabbageScene = SCNScene(named: "art.scnassets/Cabbage.scn"),
+        let node = cabbageScene.rootNode.childNode(withName: "Cabbage", recursively: false) else { return }
+        
         node.name = "Cabbage"
         self.addChildNode(node)
         self.scale = SCNVector3Make(0.01, 0.01, 0.01)
